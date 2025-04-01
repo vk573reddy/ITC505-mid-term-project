@@ -1,0 +1,78 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #e8f5e9; /* Light greenish background */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4A90E2; /* Bright blue for contrast */
+    color: white;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em; /* Increased font size for the title */
+}
+
+#game-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white; /* Keep the game container white for contrast */
+    border-radius: 15px; /* More rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s; /* Smooth scaling effect */
+}
+
+#game-container:hover {
+    transform: scale(1.02); /* Slightly enlarge on hover */
+}
+
+#story {
+    font-size: 20px; /* Increased font size for better readability */
+    margin-bottom: 20px;
+    line-height: 1.5; /* Improved line spacing */
+}
+
+#story-image {
+    width: 100%;
+    height: auto;
+    border-radius: 15px; /* More rounded corners */
+    margin-bottom: 20px;
+    border: 2px solid #4A90E2; /* Added border to the image */
+}
+
+button {
+    display: block;
+    width: 80%;
+    padding: 12px;
+    margin: 10px auto;
+    background-color: #5CB85C; /* Changed to a green color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px; /* Increased font size for buttons */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition effects */
+}
+
+button:hover {
+    background-color: #4cae4c; /* Darker green on hover */
+    transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+footer {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #ddd;
+    border-top: 2px solid #4A90E2; /* Added border to footer */
+}
+
+footer p {
+    margin: 5px 0; /* Adjusted margin for footer text */
+    font-size: 14px; /* Smaller font size for footer */
+}

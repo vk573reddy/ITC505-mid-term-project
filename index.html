@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Story Game</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <script defer src="script.js"></script> <!-- Link to your JavaScript file -->
+</head>
+<body>
+    <header>
+        <h1>Interactive Story Game</h1>
+    </header>
+    <div id="game-container">
+        <div id="story">
+            <!-- Story text will be injected here -->
+        </div>
+        <img id="story-image" src="" alt="Story Image">
+        <div id="choices">
+            <!-- Choices will be injected here -->
+        </div>
+        <button id="restart" style="display: none;">Restart Game</button>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Interactive Story Game</p>
+        <p>Last updated: 
+            <span id="lastModified"></span>
+        </p>
+    </footer>
+    <script type="text/javascript">
+         var x = document.lastModified;
+         document.getElementById('lastModified').textContent = x;
+    </script>
+
+    <div id="addendum">
+        <h2>Addendum: Process and Creative Choices</h2>
+        <p>During the development of this interactive story game, I focused on creating an engaging narrative with multiple paths and endings. I structured the game using HTML for layout, CSS for styling, and JavaScript for functionality. One of the main challenges I faced was ensuring that all story paths were reachable and that images displayed correctly. I overcame these challenges through thorough testing and debugging. This process taught me the importance of planning and testing in web development, as even small errors can significantly impact user experience.</p>
+    </div>
+</body>
+</html>
